@@ -1,0 +1,208 @@
+body{
+    background: #111111;
+}
+
+/* Defining the main area to get and fix the sizes acurately */
+#main{
+    height: 1117px;
+    width: 1728px;
+    position: relative;
+    background: #111111;
+}
+
+/* div style for the sidebar */
+#sidebar{
+    position: absolute;
+    width: 333px;
+    height: 1075px;
+    left: 21px;
+    top: 19px;
+    background: #262626;
+    border-radius: 50px;
+}
+
+/* div style for the information part of the page where the text is written */
+#upper-rect{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1323px;
+    height: 588px;
+    left: 374px;
+    top: 19px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+/* Defining the styles for the profile image which is taken as a div */
+#profile-img{
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    left: 55px;
+    top: 56px;
+    background: url(../images/sidebar_img.jpg);
+    border: 2px solid #333333;
+    border-radius: 100%;
+}
+
+/* div style for the table section of the page */
+#lower-rect{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1323px;
+    height: 464px;
+    left: 371px;
+    top: 636px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+/* div style for the Tony Start name  */
+#side-name-tag-div{
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    left: 108px;
+    top: 300px;
+}
+
+
+/* Each section have same heading styles and hence the common style for all headings */
+.heading-tag-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* div style where the billionaire is written */
+#billion-tag-box{
+    position: absolute;
+    width: 87px;
+    height: 27px;
+    left: 129px;
+    top: 348px;
+}
+
+/* Font styles for the text inside the labels are same in sidebar section and hence the common style for all labels */
+.label-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Common style for label div in the sidebar */
+.label{
+    position: absolute;
+    width: 298px;
+    height: 61px;
+    left: 17px;
+    top: 411px;
+    background: #111111;
+    border-radius: 30px;
+}
+
+/* div style for upper-rect section */
+#ur-heading-tag-div{
+    position: absolute;
+    width: 231px;
+    height: 36px;
+    left: 53px;
+    top: 56px;
+}
+
+/* Font styles for the text written in upper-rect section */
+.page-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    margin: 0px;
+}
+
+/* div style for the text section in upper-rect */
+#ur-text-div{
+    position: absolute;
+    width: 472px;
+    height: 430px;
+    left: 53px;
+    top: 127px;
+}
+
+
+/*Defining the styles for the tony stark image which is taken as a div in upper-rect section */
+#upper-rect-image{
+    position: absolute;
+    width: 722px;
+    height: 430px;
+    left: 556px;
+    top: 127px;
+    background: url(../images/upper_rect_img.jpg);
+    border-radius: 20px;
+}
+
+
+/* styles for the hyperlinks */
+a:link, a:visited, a:hover, a:active{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+
+/* div style for the lower-rect heading section */
+#lr-heading-tag-div{
+    position: absolute;
+    width: 199px;
+    height: 43px;
+    left: 56px;
+    top: 37px;
+}
+
+/* div style for the table in lower-rect */
+#lr-table-div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1227px;
+    height: 331px;
+    left: 62px;
+    top: 98px;
+}
+
+/* styles for the table elements  */
+th, td, tr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 13.5px;
+    margin: 0px;
+}
+
+table{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+td{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}

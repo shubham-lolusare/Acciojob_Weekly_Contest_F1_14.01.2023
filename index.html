@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking the Poppins font-family CSS file -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="This website tells us about the Iron Man, also known as Tony Stark, whose real name is Robert Downey J."
+    />
+
+    <link rel="shortcut icon" href="./images/icon.jpg" />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Iron man</title>
+  </head>
+
+  <!-- 
+        We will divide the given code in three parts.
+        - First one the information section we will name it as 'sidebar'
+        - Second the section which contains information and image of Iron man 
+          we will name it as 'upper-rect' 
+        - The third section with the table, we will name it as 'lower-rect'.
+        To reduce the complexity we will use simple selectors like 'id' and 'class'
+        wherever needed
+        We will also use inline CSS whenever we need to give unique proprties
+    -->
+
+  <body>
+    <main id="main">
+      <!-- Defining the sidebar and its contents -->
+      <div id="sidebar">
+        <!-- Defining the profile image -->
+        <div id="profile-img"></div>
+
+        <!-- Defining the name tag
+             We will define a seperate div style 'side-name-tag-div' for it
+             and declare a common style for its font named 'heading-tag-text' -->
+        <div id="side-name-tag-div" class="heading-tag-text">Tony Stark</div>
+
+        <!-- Defining the billionaire tag -->
+        <div class="label-text" id="billion-tag-box">Billionaire</div>
+
+        <!-- 
+            Defining the three labels in sidebar
+            We will use here 'class' selector named as 'label' 
+            as all three tags have same design 
+            We will define the inline CSS for the internal div elements of the 
+            labels as they are unique in nature
+         -->
+        <div class="label label-text">
+          <div
+            style="
+              width: 121px;
+              height: 27px;
+              position: absolute;
+              left: 89px;
+              top: 17px;
+            "
+          >
+            Contact Tony
+          </div>
+        </div>
+
+        <div class="label label-text" style="top: 496px">
+          <div
+            style="
+              width: 160px;
+              height: 27px;
+              position: absolute;
+              left: 69px;
+              top: 17px;
+            "
+          >
+            Get Into Avengers
+          </div>
+        </div>
+
+        <div class="label label-text" style="top: 580px">
+          <div
+            style="
+              width: 109px;
+              height: 27px;
+              position: absolute;
+              left: 95px;
+              top: 17px;
+            "
+          >
+            Call for Help
+          </div>
+        </div>
+      </div>
+
+      <!-- Defining the Information section that is 'upper-rect' -->
+      <div id="upper-rect">
+        <!-- Defining the heading of the information section -->
+        <div id="ur-heading-tag-div">
+          <h1 class="heading-tag-text">Recent Heroic Acts</h1>
+        </div>
+
+        <!-- Defining the text -->
+        <div id="ur-text-div">
+          <p class="page-text">
+            Why did Iron Man have to die? His sacrifice was a key part of saving
+            the universe in
+            <a
+              href="https://screenrant.com/tag/the-avengers-4/"
+              target="_blank"
+              title="Open screenrant.com/tag/the-avengers-4/"
+              >Avengers: Endgame</a
+            >, and the universe may have had no other choice – Iron Man may have
+            been the real threat all along. Robert Downey Jr.'s genius
+            billionaire playboy philanthropist was the face of the Marvel
+            Cinematic Universe for over a decade.
+            <a
+              href="https://screenrant.com/tag/iron-man/"
+              target="_blank"
+              title="Open screenrant.com/tag/iron-man/"
+              >Iron Man</a
+            >
+            launched the MCU back in 2008 and played a pivotal role in what is
+            now known as the Infinity Saga. He proved to be one of the MCU
+            franchise's greatest heroes and put his life on the line multiple
+            times before paying the ultimate price in Avengers: Endgame.
+            <br />
+            <br />
+            <br />
+            <a
+              href="https://en.wikipedia.org/wiki/Tony_Stark_(Marvel_Cinematic_Universe)"
+              target="_blank"
+              title="About Tony Stark"
+              >Read More....</a
+            >
+          </p>
+        </div>
+
+        <!-- Defining the image part -->
+        <div id="upper-rect-image"></div>
+      </div>
+
+      <!-- Defining the table section that is 'lower-rect' section -->
+      <div id="lower-rect">
+        <!-- Defining the table section heading -->
+        <div id="lr-heading-tag-div">
+          <h1 class="heading-tag-text">Tony Stark Suits</h1>
+        </div>
+
+        <!-- Defining the table and their styles-->
+        <div id="lr-table-div">
+          <table>
+            <tr>
+              <th style="width: 10%">ID</th>
+              <th style="width: 40%">Suit Name</th>
+              <th style="width: 40%">Movie</th>
+              <th style="width: 10%; border-right: none">Year</th>
+            </tr>
+            <tr>
+              <td style="text-align: center">1</td>
+              <td>Mark 1</td>
+              <td>Iron Man 1</td>
+              <td style="text-align: center; border-right: none">2008</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">2</td>
+              <td>Mark 2</td>
+              <td>Iron Man 1</td>
+              <td style="text-align: center; border-right: none">2008</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">3</td>
+              <td>Mark 3</td>
+              <td>Iron Man 1</td>
+              <td style="text-align: center; border-right: none">2008</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">4</td>
+              <td>Mark 4</td>
+              <td>Iron Man 2</td>
+              <td style="text-align: center; border-right: none">2010</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">5</td>
+              <td>Mark 5</td>
+              <td>Iron Man 2</td>
+              <td style="text-align: center; border-right: none">2010</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

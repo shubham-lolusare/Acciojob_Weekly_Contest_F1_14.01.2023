@@ -3,7 +3,7 @@
 This is the weekly contest project of Acciojob Frontend 1 Module
 
 <p>Click on the below link to view the webpage<br>
-https://slolusare96.github.io/Acciojob_Weekly_Contest_F1_14.01.2023/</p>
+https://shubham-lolusare.github.io/Acciojob_Weekly_Contest_F1_14.01.2023/</p>
 <p>Following are the deliverables of this project:</p>
 <ol>
       <li>
